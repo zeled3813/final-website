@@ -126,3 +126,9 @@ plastic {
         background-size:cover;
     }
 }
+
+@media(max-width:400px){
+    .lineUp{
+        font-size:22px;
+    }
+}
