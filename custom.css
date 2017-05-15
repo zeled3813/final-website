@@ -1,11 +1,12 @@
-.container {}
-
-.navbar-nav{
+body{
+    background-color:black;
+}
+.navbar-nav {
     display: inline-block;
     float: none;
 }
 
-.navbar{
+.navbar {
     text-align: center;
 }
 
@@ -15,7 +16,7 @@
     background: linear-gradient( rgba(170, 34, 34, 0.3), rgba(216, 21, 21, 1)), url('img/earth.png') center no-repeat fixed;
     /*image-source:https://pixabay.com/p-147591/?no_redirect*/
     position: relative;
-    top:25px;
+    top: 25px;
 }
 
 #center {
@@ -44,63 +45,40 @@
     bottom: 500px;
 }
 
-#left-side {}
+#infoSection{
+    text-align:center;
+    background-color:black;
+    color:white;
+}
 
-/*.sidenav {*/
-/*    height: 40%;*/
-/*    width: 0;*/
-/*    position: fixed;*/
-/*    z-index: 1;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    background-color: #111;*/
-/*    overflow-x: hidden;*/
-/*    transition: 0.5s;*/
-/*    padding-top: 60px;*/
-/*}*/
+#videos{
+    text-align:center;
+    background-color:black;
+    color:white;
+}
 
-/*.sidenav a {*/
-/*    padding: 8px 8px 8px 32px;*/
-/*    text-decoration: none;*/
-/*    font-size: 25px;*/
-/*    color: #818181;*/
-/*    display: block;*/
-/*    transition: 0.3s;*/
-/*}*/
+#alternative{
+    text-align:center;
+    background-color:black;
+    color:white;
+}
 
-/*.sidenav a:hover,*/
-/*.offcanvas a:focus {*/
-/*    color: #f1f1f1;*/
-/*}*/
-
-/*.sidenav .closebtn {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    right: 25px;*/
-/*    font-size: 36px;*/
-/*    margin-left: 50px;*/
-/*}*/
-
-/*#main {*/
-/*    transition: margin-left .5s;*/
-/*    padding: 16px;*/
-/*}*/
-
-#right-side {}
-
-#footer-div {}
+.set {
+    position: relative;
+    padding: 0px;
+}
 
 #overlay {
+    cursor: pointer;
     padding: 0px;
     position: absolute;
-    background-color: rgba(83, 175, 237, 0.69);
     top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
     opacity: 0;
     transition: all 0.3s;
-    cursor: pointer;
+    background-color: rgba(83, 175, 237, 0.69);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,12 +92,37 @@
 
 #right {
     /*font-size:;*/
-    margin:center;
-    text-align:center;
+    margin: center;
+    text-align: center;
 }
 
-#background {}
+#background {
+    background-color:grey;
+}
 
-#footer-div{
-    text-align:center;
+#footer-div {
+    text-align: center;
+    color:white;
+}
+
+plastic {
+    text-align: center;
+}
+
+@media(max-width:520px){
+    #center{
+        font-size:55px;
+    }
+    #follow{
+        font-size:20px;
+    }
+    .heading{
+        background-size:cover;
+    }
+}
+
+@media(max-width:700px){
+    .heading{
+        background-size:cover;
+    }
 }
