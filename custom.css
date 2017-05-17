@@ -1,6 +1,7 @@
-body{
-    background-color:black;
+body {
+    background-color: black;
 }
+
 .navbar-nav {
     display: inline-block;
     float: none;
@@ -45,22 +46,22 @@ body{
     bottom: 500px;
 }
 
-#infoSection{
-    text-align:center;
-    background-color:black;
-    color:white;
+#infoSection {
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
-#videos{
-    text-align:center;
-    background-color:black;
-    color:white;
+#videos {
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
-#alternative{
-    text-align:center;
-    background-color:black;
-    color:white;
+#alternative {
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
 .set {
@@ -97,37 +98,51 @@ body{
 }
 
 #background {
-    background-color:grey;
+    background-color: grey;
 }
 
 #footer-div {
     text-align: center;
-    color:white;
+    color: white;
 }
 
-plastic {
+#plastic {
     text-align: center;
 }
 
-@media(max-width:520px){
-    #center{
-        font-size:55px;
+.lineUp {
+    font-size: 22px;
+}
+
+.firstImage {
+    font-size: 22px;
+}
+
+@media(max-width:520px) {
+    #center {
+        font-size: 55px;
     }
-    #follow{
-        font-size:20px;
+    #follow {
+        font-size: 20px;
     }
-    .heading{
-        background-size:cover;
+    .heading {
+        background-size: cover;
+    }
+}
+
+@media(max-width:700px) {
+    .heading {
+        background-size: cover;
+    }
+}
+
+@media(max-width:1200px) {
+    .lineUp {
+        font-size: 15px;
     }
 }
 
 @media(max-width:700px){
-    .heading{
-        background-size:cover;
-    }
-}
-
-@media(max-width:400px){
     .lineUp{
         font-size:22px;
     }
