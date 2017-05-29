@@ -81,11 +81,12 @@ body {
     right: 0px;
     cursor: pointer;
     transition: all 0.3s;
-    font-size: 2em
+    font-size: 2em;
     color: white;
     background-color: rgba(83, 175, 237, 0.69);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #overlay:hover {
